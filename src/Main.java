@@ -43,15 +43,22 @@ public class Main {
 
         //Homework 3
         //Task 1
-        var FirstFighterWeight = 78.2;
-        var SecondFighterWeight = 82.7;
-        var WeightSummary = FirstFighterWeight + SecondFighterWeight;
-        var FirstWeightDifference = (SecondFighterWeight - FirstFighterWeight);
-        System.out.println(WeightSummary);
-        System.out.println(FirstWeightDifference);
+        var firstFighterWeight = 78.2;
+        var secondFighterWeight = 82.7;
+        var weightSummary = firstFighterWeight + secondFighterWeight;
+        var firstWeightDifference = (secondFighterWeight - firstFighterWeight);
+        System.out.println(weightSummary);
+        System.out.println(firstWeightDifference);
         //Task 2
-        var SecondWeightDifference = (SecondFighterWeight % FirstFighterWeight);
-        System.out.println(SecondWeightDifference);
+        var secondWeightDifference = (secondFighterWeight % firstFighterWeight);
+        System.out.println(secondWeightDifference);
         //Task 3
+        var scheduleHours = 640;
+        var oneEmployeeHours = 8;
+        var totalEmployeesNumber = scheduleHours / oneEmployeeHours;
+        System.out.println("Всего работников в компании - " + totalEmployeesNumber + " человек");
+        var newTotalEmployeesNumber = totalEmployeesNumber + 94;
+        var newScheduleHours = newTotalEmployeesNumber * oneEmployeeHours;
+        System.out.println("Если в компании работает " + newTotalEmployeesNumber + " человек, то всего " + newScheduleHours + " часов работы может быть поделено между сотрудниками");
     }
 }
