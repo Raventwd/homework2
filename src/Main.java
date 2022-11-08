@@ -47,11 +47,11 @@ public class Main {
         var secondFighterWeight = 82.7;
         var weightSummary = firstFighterWeight + secondFighterWeight;
         var firstWeightDifference = (secondFighterWeight - firstFighterWeight);
-        System.out.println(weightSummary);
-        System.out.println(firstWeightDifference);
+        System.out.println("Суммарный вес двух бойцов " + weightSummary + " Кг");
+        System.out.println("Первый вариант - " + firstWeightDifference + " Кг");
         //Task 2
         var secondWeightDifference = (secondFighterWeight % firstFighterWeight);
-        System.out.println(secondWeightDifference);
+        System.out.println("Второй вариант - " + secondWeightDifference + " Кг");
         //Task 3
         var scheduleHours = 640;
         var oneEmployeeHours = 8;
